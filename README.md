@@ -17,7 +17,7 @@ If you'd like to see the Javascript file for the tests, I commited it seperatley
 3. docker-compose up
 
 ## Automated Testing
-I have added a [docker-image.yml](https://github.com/JamesWilson19947/postman-covid-tests/blob/main/.github/workflows/docker-image.yml) which will trigger a Github Actions workflow to build the image and it will output the result. This happens anytime a pull request or push is made. It will return a success even if the tests fails and the test is to prove the docker image works, but the docker image does exit with a code of 1. 
+I have added a [docker-image.yml](https://github.com/JamesWilson19947/postman-covid-tests/blob/main/.github/workflows/docker-image.yml) which will trigger a Github Actions workflow to build the image and it will output the result. This happens anytime a pull request or push is made. 
 
 An image of these tests running:
 ![image](https://user-images.githubusercontent.com/15872012/139706351-69117bbf-a037-43af-913c-560a9c0fbdf6.png)

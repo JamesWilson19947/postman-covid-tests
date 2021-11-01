@@ -1,6 +1,6 @@
 # Postman Covid Testing
 
-These sets of tests were designed to grab an API url from apify.com and then process the tests to ensure.
+These sets of tests were designed to grab an API url from apify.com and then process the tests to ensure. 
 
 That for the date time 22nd March 2020 at 22:05 the following conditions are met:
 - totalInfected = 5683

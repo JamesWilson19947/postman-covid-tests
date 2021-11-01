@@ -1,0 +1,12 @@
+version: "2"
+services:
+  postman_checks:
+      container_name: covid_tests
+      build: .
+      image: postman_checks
+      command:
+        run covid_tests.postman_collection.json 
+        -e covid_tests.postman_collection.json 
+        -r cli 
+      volumes:
+        - ./collections:/etc/newman
